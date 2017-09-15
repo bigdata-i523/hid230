@@ -1,8 +1,5 @@
 # hid230
-# Comments
 
-* Mind the ```quotes and do not forget them```
-* Remove all sections that you have not yet created a directory in github with so our automated scripts do not fail. Only add them if the 
 
 # Owner
 
@@ -18,14 +15,15 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - YuanMing Huang
+   
    hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
+   - hid230
+   
+   title: This is my paper about ----
    abstract: This paper showcases tis and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
+   status:in progress
 ```
    
 # Paper 2
