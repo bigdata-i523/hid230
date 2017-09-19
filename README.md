@@ -21,7 +21,7 @@ paper1:
    title: This is my paper about ...
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
-   status:in progress
+   status: in progress
 ```
    
 # Paper 2
@@ -43,9 +43,8 @@ We will assign new pids for you when we approve the project and reports
 Just use one type and delete the line with 
 
 ```
-paper2:
+project:
    type: project
-   type: report
    author: 
    - Gregor von Laszewski
    hid:
