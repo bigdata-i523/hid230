@@ -1,13 +1,13 @@
-# hid230
+# hid230 
 
 
 # Owner
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
-    url: https://github.com/bigdata-i523/sample-hid000
+    hid: 230
+    name: YuanMing Huang
+    url: https://github.com/bigdata-i523/hid230
 ```
 
 # Paper 1
@@ -16,11 +16,9 @@ owner:
 paper1:
    author: 
    - YuanMing Huang
-   
    hid:
    - hid230
-   
-   title: This is my paper about ----
+   title: This is my paper about ...
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
    status:in progress
