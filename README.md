@@ -17,7 +17,7 @@ paper1:
    author: 
    - YuanMing Huang
    hid:
-   - hid230
+   - 230
    title: This is my paper about ...
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
