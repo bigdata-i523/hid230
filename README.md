@@ -18,7 +18,7 @@ paper1:
    - YuanMing Huang
    hid:
    - 230
-   title: This is my paper about ...
+   title: This is my paper about big data with navigation
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
    status: in progress
