@@ -18,8 +18,8 @@ paper1:
    - YuanMing Huang
    hid:
    - 230
-   title: This is my paper about big data with navigation
-   abstract: This paper showcases tis and that and the other
+   title: This is my paper about big data with natural language processing
+   abstract: This is the abstract of paper 1
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
    status: in progress
 ```
@@ -29,12 +29,12 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - YuanMing Huang
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases tis and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
+   - 230
+   title: This is my paper about big data with natural language processing
+   abstract: This is the abstract of paper 2
+   url: https://github.com/bigdata-i523/hid230/paper2/paper2.pdf   
 ```
 
 # Project 
@@ -46,11 +46,11 @@ Just use one type and delete the line with
 project:
    type: project
    author: 
-   - Gregor von Laszewski
+   - Yuanming Huang
    hid:
-   - 000
-   title: Benchmarking a BigData Docker deployment
-   abstract: This paper showcases tis and that and the other 
-   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+   - 230
+   title: big data with natural language processing
+   abstract: This is the abstract of project
+   url: https://github.com/bigdata-i523/hid230/project/report.pdf
 ```
    
