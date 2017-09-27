@@ -10,16 +10,16 @@
 
 # Practice
 
-*08/24/17 Bought Raspberry PI
-*08/25/17 Enabled Python 2 and 3 via pyenv on OSX
-*08/25/2017 Meeting: Attended class meeting for residential students
-*09/01/2017 Meeting: Attended class meeting for residential students
-*09/08/2017 Meeting: Attended class meeting for residential students
-*09/22/2017 Meeting: Attended class meeting for residential students
+* 08/24/17 Bought Raspberry PI
+* 08/25/17 Enabled Python 2 and 3 via pyenv on OSX
+* 08/25/2017 Meeting: Attended class meeting for residential students
+* 09/01/2017 Meeting: Attended class meeting for residential students
+* 09/08/2017 Meeting: Attended class meeting for residential students
+* 09/22/2017 Meeting: Attended class meeting for residential students
 
 # Writing
-*08/26/17 Installed and Learned aquamacs
-*00/01/17 Installed and Learned jabref
-*09/18/17 Installed and Learned Latex
-*09/20/17 Research for paper
-*09/24/17 - 09/26/17 Worked on writing pape
+* 08/26/17 Installed and Learned aquamacs
+* 00/01/17 Installed and Learned jabref
+* 09/18/17 Installed and Learned Latex
+* 09/20/17 Research for paper
+* 09/24/17 - 09/26/17 Worked on writing pape
