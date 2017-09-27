@@ -18,7 +18,7 @@ paper1:
    - YuanMing Huang
    hid:
    - 230
-   title: This is my paper about big data with natural language processing
+   title:Big data with natural language processing
    abstract: This is the abstract of paper 1
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
    status: in progress
@@ -32,7 +32,7 @@ paper2:
    - YuanMing Huang
    hid:
    - 230
-   title: This is my paper about big data with natural language processing
+   title: Big data with natural language processing
    abstract: This is the abstract of paper 2
    url: https://github.com/bigdata-i523/hid230/paper2/paper2.pdf   
 ```
