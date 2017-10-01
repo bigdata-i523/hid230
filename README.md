@@ -22,6 +22,7 @@ paper1:
    abstract: This is the abstract of paper 1
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
    status: in progress
+   chapter: Text
 ```
    
 # Paper 2
