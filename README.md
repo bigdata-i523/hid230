@@ -21,7 +21,8 @@ paper1:
    title: Big data with natural language processing
    abstract: This is the abstract of paper 1
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
-   status: in progress
+   status: in progres
+   type: latex
    chapter: Text
 ```
    
@@ -35,7 +36,8 @@ paper2:
    - 230
    title: Big data with natural language processing
    abstract: This is the abstract of paper 2
-   url: https://github.com/bigdata-i523/hid230/paper2/paper2.pdf   
+   type: latex
+   url: https://github.com/bigdata-i523/hid230/paper2/paper2.pdf 
 ```
 
 # Project 
