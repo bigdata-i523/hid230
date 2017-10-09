@@ -21,7 +21,7 @@ paper1:
    title: Big data with natural language processing
    abstract: This is the abstract of paper 1
    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
-   status: in progres
+   status: 0%
    type: latex
    chapter: Text
 ```
