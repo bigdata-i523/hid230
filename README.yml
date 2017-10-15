@@ -1,0 +1,38 @@
+---
+owner:
+    hid: 230
+    name: YuanMing Huang
+    url: https://github.com/bigdata-i523/hid230
+paper1:
+    abstract: With the development of science and technology of today, natural language
+        processing has been very widely used. And the application of big data is also
+        more and more wide, while,in various areas,the role and impact of big data
+        is also growing rapidly. In this study, it answered the question of "How big
+        data affects the natural language processing."
+    author:
+        - YuanMing Huang
+    chapter: Natural Language Processing
+    hid:
+        - 230
+    status: 100%
+    title: Big data with natural language processing
+    type: latex
+    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
+paper2:
+    abstract: This is the abstract of paper 2
+    author:
+        - YuanMing Huang
+    hid:
+        - 230
+    title: Big data with natural language processing
+    type: latex
+    url: https://github.com/bigdata-i523/hid230/paper2/paper2.pdf
+project:
+    abstract: This is the abstract of project
+    author:
+        - Yuanming Huang
+    hid:
+        - 230
+    title: big data with natural language processing
+    type: project
+    url: https://github.com/bigdata-i523/hid230/project/report.pdf
