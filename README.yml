@@ -4,7 +4,8 @@ owner:
     name: YuanMing Huang
     url: https://github.com/bigdata-i523/hid230
 paper1:
-    abstract: With the development of science and technology of today, natural language
+    abstract: >
+        With the development of science and technology of today, natural language
         processing has been very widely used. And the application of big data is also
         more and more wide, while,in various areas,the role and impact of big data
         is also growing rapidly. In this study, it answered the question of "How big
