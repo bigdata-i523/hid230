@@ -1,1 +1,100 @@
+\documentclass[sigconf]{acmart}
 
+\input{format/i523}
+
+\begin{document}
+\title{Big Data With Apache Spark}
+
+
+\author{YuanMingHuang}
+\orcid{1234-5678-9012}
+\affiliation{%
+  \institution{Indiana Univeristy Bloominton}
+  \city{Bloomington} 
+  \state{In} 
+  \postcode{47408}
+}
+\email{huang226@indiana.edu}
+
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{H. Huang}
+
+
+\begin{abstract}
+This study provided a short overview of big data processing framework Apache Spark, and mainly introduce Apache Spark frame, and compared to some other big data technologies like Hadoop. Then, introduced what is new in Apache Spark and Spark Ecosystem. It will help people to better learn about Apache Spark.
+\end{abstract}
+
+\keywords{Big Data, Framework, Hadoop, Apache Spark}
+
+
+\maketitle
+
+
+
+\section{Introduction}
+
+Apache Spark is an open source big data processing framework. However, it is built around speed. The advantage of it is easy to use and sophisticated analytics\cite{SHYAMR2015171,}. It was originally developed in 2009 in UC Berkeley’s AMPLab, and open sourced in 2010 as an Apache project. Comparing to other big data technologies, for example, Hadoop and Storm, it has the following advantages:
+Firstly, Spark provides users a more comprehensive, unified framework to manage big data processing requirements with a great number of data sets that are diverse in nature as well as the source of data. 
+Secondly, Spark makes it possible for applications in Hadoop clusters to run up to around 100 times faster in memory and 10 times faster even when it is running on disk.
+Thirdly, Spark allows users quickly write applications in some different programming languages, such as Java, Scala, or Python. At the meanwhile, it comes with a built-in set of over 80 high-level operators. As well as you can use it interactively to query data within the shell.
+In addition to Map and Reduce operations, it can also support SQL queries, streaming data, machine learning and graph data processing. Thus, Developers can use these abilities stand-alone or combine them to run in an individual data pipeline use case.
+When you are first installment of Apache Spark article series, users will look at what Spark is, how it compares with a typical MapReduce solution and how it provides a complete suite of tools for big data processing.
+
+
+\section{Why it is better than Hadoop}
+Hadoop is a big data processing technology. It has been around for 10 years and has proven to be the solution of choice for processing large data sets. MapReduce is a very powerful solution for those one-pass computations, however, sometimes it not that efficient for use cases if it requires multi-pass computations and algorithms. Every step in the data processing workflow will have one Map phase and one Reduce phase , thus users will need to convert use case into MapReduce pattern ,and then it will be able to leverage this solution.
+Hence, if we want to do something complicated, we would have to string together a series of MapReduce jobs and execute them in sequence. Each step of those jobs was time killer, and none of them could start unless the previous job had already finished completely.
+However, Spark will allow programmers to develop complex, multi-step data pipelines using directed acyclic graph pattern. It makes it easier and will save a great number of time. In the meanwhile, it also supports in-memory data sharing across DAGs, so that even though it is some different jobs, it can also work with the same data which makes it easier to operate and control.
+
+After those analysis, we will find that we can see Spark as an alternative to Hadoop MapReduce rather than a replacement to Hadoop. It’s not intended to replace Hadoop but to provide a more comprehensive and unified \cite{Zaharia:2016:ASU:3013530.2934664,} solution to manage and run different big data use cases and requirements.
+
+
+
+\section{What is in Spark}
+With shuffles in the data processing, Spark takes MapReduce to the next level. And
+With capabilities like in-memory data storage and near real-time processing, it improved its performance\cite{Armbrust:2015:SSR:2824032.2824080,}, so it can be several times faster than other big data technologies.
+Within Spark, it also provides a higher-level API to improve developer productivity and a consistent architect model for big data solutions. And Spark also supports lazy evaluation of big data queries, it will help with optimization of the steps in data processing workflows.
+
+Apart from above, Spark also include more functions to support more than just Map and Reduce, arbitrary operator graphs and a more interactive shell for Scala and Python.
+Because Spark is written in Scala Programming Language and runs on Java Virtual Machine  environment. So, it can support the following languages for developing applications using Spark, like Scala, Java, Python, Clojure and R.
+
+
+\section{Spark Ecosystem}
+In addition to Spark Core API, there still are some other additional libraries. All of them are part of the Spark ecosystem, and they provide additional capabilities in Big Data analytics and Machine Learning areas.
+These libraries are:
+
+
+\subsection{Spark Streaming}
+Spark Streaming can be used for processing the real-time streaming data. It is based on micro batch style of computing and processing and it uses the DStream which is basically a series of RDDs to process the real-time data.
+
+\subsection{Spark SQL}
+Spark SQL \cite{Armbrust:2015:SSR:2723372.2742797,} provides the ability to expose the Spark datasets over JDBC API and it allows running the SQL like queries on Spark data using traditional BI and visualization tools. Spark SQL allows the users to ETL their data from different formats.
+
+\subsection{Spark MLlib}
+MLlib is Spark’s scalable machine learning library consisting of common learning algorithms and utilities, it includes classification, regression, clustering, collaborative filtering, dimensionality reduction, and underlying optimization primitives.
+
+\subsection{Spark GraphX}
+GraphX is the new Spark API for graphs and graph-parallel computation. At a high level, GraphX extends the Spark RDD by introducing the Resilient Distributed Property Graph. In order to support graph computation, GraphX exposes a set of fundamental operators like subgraph, joinVertices, and aggregateMessages and optimized variant of the Pregel API.
+
+\section{A Resilient structure}
+Resilient Distributed Dataset is the core concept in Spark framework. We can consider about RDD as a table in a database. And it can hold a great numbers types of data. And those data will be stored on different partitions. They help to rearrange the computations and optimize the data processing. They are also fault tolerance because RDDs knowhow to recreate and compute the datasets. In the meanwhile, RDDs are immutable, so we can modify an RDD with a transformation. And then the transformation will return us a new RDD whereas the original RDD remains the same.
+
+\section{Conclusion}
+Apache Spark as an open source big data processing framework. it has a very fast speed than other technologies. In the meanwhile, it provides a lot of tools to process data, it provides a new way to improve the efficiency in processing dataset. And we can use different programming languages to finish different job within Spark. It has many advantages than Hadoop, but it not born for replacing Hadoop, but helping to improve the capability of processing data and speed to finish big data jobs.
+
+
+\begin{acks}
+
+  The authors would like to thank Dr. Gregor von Laszewski for his
+  support and suggestions to write this paper.
+
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{report} 
+
+\appendix
+
+
+\end{document}
