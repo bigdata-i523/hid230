@@ -18,7 +18,7 @@ paper1:
     status: Oct 27th 100%
     title: Big data with natural language processing
     type: latex
-    url: https://github.com/bigdata-i523/hid230/paper1/paper1.pdf
+    url: https://github.com/bigdata-i523/hid230/paper1/
 paper2:
     review: Nov 6 2017
     abstract: This study provided a short overview of big data processing framework Apache Spark, and mainly introduce Apache Spark frame, and compared to some other big data technologies like Hadoop. Then, introduced what is new in Apache Spark and Spark Ecosystem. It will help people to better learn about Apache Spark.
@@ -36,6 +36,7 @@ project:
         - Yuanming Huang
     hid:
         - 230
-    title: big data with natural language processing
+    title: Big data with natural language processing
     type: project
-    url: https://github.com/bigdata-i523/hid230/project/report.pdf
+    url: https://github.com/bigdata-i523/hid230/project/
+    chapter: Media
